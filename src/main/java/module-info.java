@@ -4,6 +4,7 @@ module com.empresa.pdv {
     requires org.kordamp.ikonli.javafx;
     requires org.kordamp.ikonli.feather;
     requires atlantafx.base;
+    requires org.apache.pdfbox;
 
     // Permite que o JavaFX acesse os Controllers via reflexão
     opens com.empresa.pdv.controllers to javafx.fxml;
